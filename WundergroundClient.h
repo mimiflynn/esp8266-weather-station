@@ -65,7 +65,7 @@ class WundergroundClient: public JsonListener {
     String UV;
     String observationTime;                 // fowlerk add, 04-Dec-2016
     // end fowlerk add
-    
+
     void doUpdate(String url);
 
     // forecast
@@ -107,7 +107,7 @@ class WundergroundClient: public JsonListener {
     void updateAstronomy(String apiKey, String language, String country, String state, String city);
     void updateAlerts(String apiKey, String language, String country, String state, String city);       // Added by fowlerk, 18-Dec-2016
     void initMetric(boolean isMetric);          // Added by fowlerk, 12/22/16, as an option to change metric setting other than at instantiation
-    
+
     // JJG added
     String getHours();
     String getMinutes();
@@ -145,9 +145,9 @@ class WundergroundClient: public JsonListener {
     String getPrecipitationToday();
     // fowlerk added...
     String getFeelsLike();
-    
+
     String getUV();
-    
+
     String getObservationTime();            // fowlerk add, 04-Dec-2016
     // end fowlerk add
 
@@ -160,33 +160,33 @@ class WundergroundClient: public JsonListener {
     String getForecastHighTemp(int period);
     // fowlerk added...
     String getForecastDay(int period);
-    
+
     String getForecastMonth(int period);
-    
+
     String getForecastText(int period);
-    
+
     String getPoP(int period);
-    
+
     int getActiveAlertsCnt();
-    
+
     String getActiveAlerts(int alertIndex);
-    
+
     String getActiveAlertsText(int alertIndex);
-    
+
     String getActiveAlertsMessage(int alertIndex);
 
     bool getActiveAlertsMessageTrunc(int alertIndex);
-    
+
     String getActiveAlertsStart(int alertIndex);
-    
+
     String getActiveAlertsEnd(int alertIndex);
-    
+
     String getActiveAlertsPhenomena(int alertIndex);
-    
+
     String getActiveAlertsSignificance(int alertIndex);
 
     String getActiveAlertsAttribution(int alertIndex);
-    
+
     // end fowlerk add
 
     virtual void whitespace(char c);
