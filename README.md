@@ -1,3 +1,11 @@
+# Wunderground API has been deprecated
+
+Please check out the [weather.gov port of this project](https://github.com/mimiflynn/esp8266-current-temp).
+
+
+
+
+
 # Build
 
 * Stable: [![Build Status](https://api.travis-ci.org/squix78/esp8266-weather-station.svg?branch=master)](https://travis-ci.org/squix78/esp8266-weather-station)
